@@ -25,11 +25,12 @@ A professional-grade Python automation pipeline that integrates real-time financ
 ### 2. Installation
 Clone the repository and install dependencies:
 ```bash
-apt install python3 
+sudo apt update && sudo apt install python3 pip -y
+pkg install gitclone
 git clone [https://github.com/anonymousblessed21/Finpulse-AI.git](https://github.com/anonymousblessed21/Finpulse-AI.git)
 cd Finpulse-AI
-pip install -r requirements.txt
-py main.py
+pip3 install -r requirements.txt
+python3 main.py
 ```
 ### 🔐Security Notice
 This project uses .env files to ensure that all sensitive credentials (API keys, Tokens) are kept out of the source code. The .gitignore is pre-configured to prevent accidental exposure of these secrets.
